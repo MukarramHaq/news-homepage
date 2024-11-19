@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: Inter, 'sans-serif';
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+
+header img:first-child{
+    height: 28px;
+}
+
+article img{
+    width: 100%;
+}
+
+.article-content h1{
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.article-content p{
+    color: #5E607A;
+    font-size: 1.038rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
