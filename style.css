@@ -153,3 +153,42 @@ hr {
   line-height: 1.7;
   color: #5E607A;
 }
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: white;
+    padding: 1.5rem;
+    display: none;
+    /* display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start; */
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.close-menu{
+    align-self: end;
+}
+
+ul li{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+ul li{
+    justify-self: center;
+}

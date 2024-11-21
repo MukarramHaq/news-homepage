@@ -16,13 +16,29 @@
 
   <header>
     <img src="assets/images/logo.svg" alt="logo">
-    <img src="assets/images/icon-menu.svg" alt="close-menu-icon">
+    <img class="hamburger" src="assets/images/icon-menu.svg" alt="open-menu-icon">
+
+    <nav class="sidebar">
+      <ul>
+        <li class="close-menu"><img src="assets/images/icon-menu-close.svg" alt=""></li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </nav>
+
   </header>
 
   <main>
     <article class="first-article">
 
-      <img src="image-web-3-mobile.jpg" alt="web3 background">
+      <picture>
+        <source media="(max-width: 650px)" srcset="image-web-3-mobile.jpg">
+        <source media="(max-width: 1230px)" srcset="image-web-3-desktop.jpg">
+        <img src="image-web-3-desktop.jpg" alt="for desktop">
+      </picture>
+      <!-- <img src="image-web-3-mobile.jpg" alt="web3 background"> -->
       
       <div class="article-content">
         <h1>The Bright Future of Web 3.0?</h1>
@@ -116,5 +132,8 @@
   03
   The Growth of Gaming
   How the pandemic has sparked fresh opportunities. -->
+
+  <script defer src="index.js"></script>
+
 </body>
 </html>
