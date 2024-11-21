@@ -76,6 +76,7 @@ button {
   font-family: Inter, "sans-serif";
   padding: 13px 31px;
   font-weight: var(--fw-800);
+  color: #00001A;
 }
 
 aside {
@@ -125,11 +126,9 @@ hr {
 }
 
 .second-article-content {
-  /* display: flex; */
   display: grid;
   grid-template-columns: 30% 1fr;
   gap: 1.5625rem;
-  /* border: 1px solid black; */
 }
 
 .content-information{
@@ -141,14 +140,12 @@ hr {
 .content-information h3 {
   font-size: 1.7rem;
   color: var(--pr-soft-red);
-  /* margin-bottom: 10px; */
 }
 
 .content-information a {
   text-decoration: none;
   color: #00001a;
   font-weight: var(--fw-700);
-  /* margin-bottom: 10px; */
 }
 
 .content-information p {
