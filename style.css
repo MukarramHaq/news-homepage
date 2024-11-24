@@ -270,6 +270,10 @@ hr {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    /* grid-column: 1/3; */
+    margin: 0;
+    /* padding: 0; */
+    align-self: end;
   }
 
   .article-content h1{
@@ -279,6 +283,7 @@ hr {
   .article-content-two{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .article-content-two button{
