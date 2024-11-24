@@ -15,7 +15,7 @@
 <body>
 
   <header>
-    <img src="assets/images/logo.svg" alt="logo">
+    <a href="#"><img class="logo" src="assets/images/logo.svg" alt="logo"></a>
     <img class="hamburger" src="assets/images/icon-menu.svg" alt="open-menu-icon">
 
     <nav class="sidebar">
@@ -27,17 +27,28 @@
         <li>Categories</li>
       </ul>
     </nav>
+    <nav class="homepage-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
 
   </header>
 
   <main>
     <article class="first-article">
 
-      <picture>
-        <source media="(max-width: 650px)" srcset="image-web-3-mobile.jpg">
-        <source media="(max-width: 1230px)" srcset="image-web-3-desktop.jpg">
-        <img src="image-web-3-desktop.jpg" alt="for desktop">
-      </picture>
+      <div class="images">
+        <picture>
+          <source media="(max-width: 650px)" srcset="image-web-3-mobile.jpg">
+          <source media="(max-width: 1230px)" srcset="image-web-3-desktop.jpg">
+          <img class="desktop-image" src="image-web-3-desktop.jpg" alt="for desktop">
+        </picture>
+      </div>
       <!-- <img src="image-web-3-mobile.jpg" alt="web3 background"> -->
       
       <div class="article-content">
